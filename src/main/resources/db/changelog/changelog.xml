@@ -16,6 +16,17 @@
         <sqlFile path="db/changelog/changes/CreateGeoLocatorMaster.sql" />
     </changeSet>
 
+    <changeSet  author="priya" id="4">
+        <sqlFile path="db/changelog/changes/InsertPinCodeDetails.sql" />
+    </changeSet>
+
+    <changeSet  author="priya" id="5">
+        <sqlFile path="db/changelog/changes/CreateStateMaster.sql" />
+    </changeSet>
+
+    <changeSet  author="priya" id="6">
+        <sqlFile path="db/changelog/changes/createTableCIityMaster.sql" />
+    </changeSet>
 
 
 
