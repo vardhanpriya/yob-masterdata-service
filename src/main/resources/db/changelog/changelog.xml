@@ -28,6 +28,13 @@
         <sqlFile path="db/changelog/changes/createTableCIityMaster.sql" />
     </changeSet>
 
+    <changeSet  author="priya" id="7">
+        <sqlFile path="db/changelog/changes/InsertStateMasterDetails.sql" />
+    </changeSet>
+
+    <changeSet  author="priya" id="8">
+        <sqlFile path="db/changelog/changes/InsertCityMasterDetails.sql" />
+    </changeSet>
 
 
 
